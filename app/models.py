@@ -13,5 +13,6 @@ class User(db.Model):
         self.score = score
 
     def __repr__(self):
-        return '<id {}>'.format(self.id)
-    
+        return {'id':id, 'name':name, 'score':score}
+    # '<id {}>'.format(self.id)
+
